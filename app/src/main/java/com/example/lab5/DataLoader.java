@@ -15,7 +15,7 @@ import org.json.JSONObject;
 
 public class DataLoader {
 
-    private static final String BASE_URL = "https://api.currencyapi.com/v3/latest?apikey=cur_live_y89YchPtLJ00FTHK4MOYCk7aIJCHSMbrmKWcKTCj";
+    private static final String BASE_URL = "https://api.currencyapi.com/v3/latest?apikey=cur_live_XImWZGdBC72IuL6U5BbMn9fQ1gNeBXr7PCox5MMu";
 
     public static void loadCurrencies(Context context, final CurrencyLoadListener listener) {
         RequestQueue queue = Volley.newRequestQueue(context);
